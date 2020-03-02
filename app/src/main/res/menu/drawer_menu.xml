@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one"
+            android:icon="@drawable/ic_looks_one_black_24dp"
+            android:title="one" />
+        <item
+            android:id="@+id/nav_two"
+            android:icon="@drawable/ic_looks_two_black_24dp"
+            android:title="two" />
+        <item
+            android:id="@+id/nav_three"
+            android:icon="@drawable/ic_looks_3_black_24dp"
+            android:title="three" />
+    </group>
+</menu>
